@@ -34,7 +34,7 @@ Para cada tamanho, os seguintes cenários foram testados:
 ## 📊 Resultados Provisórios
 Os resultados da Fase 1 foram consolidados em gráficos de **Tempo (s) vs. Tamanho do Array (N)**.
 
-Esses gráficos comparam visualmente o desempenho do **caso médio aleatório** contra o **pior caso invertido** para cada um dos algoritmos implementados, destacando a diferença de complexidade (\(O(n^{2})\)), vs. (\(O(\log n)\)) na prática.
+Esses gráficos comparam visualmente o desempenho do **caso médio aleatório** contra o **pior caso invertido** para cada um dos algoritmos implementados, destacando a diferença de complexidade $O(n^2)$, vs. $O(\log n)$ na prática.
 
 ## 🛠️ Tecnologias Utilizadas
 * **Python 3.12.7**
@@ -54,7 +54,7 @@ Para tornar a análise ainda mais robusta e completa, os próximos passos do pro
 * **2. Métricas Além do Tempo:**
     * Implementar a contagem de **operações de comparação** (quantas vezes dois elementos são comparados).
     * Implementar a contagem de **operações de troca (swaps)**.
-    * Analisar a **complexidade de espaço** (memória), comparando algoritmos *in-place* ($O(1)$) com os que exigem memória auxiliar ($O(n)$), como o Merge Sort.
+    * Analisar a **complexidade de espaço** (memória), comparando algoritmos *in-place* $O(1)$ com os que exigem memória auxiliar $O(n)$, como o Merge Sort.
 
 * **4. Análise de Pivô (Quicksort):**
     * Investigar e comparar o impacto de diferentes estratégias de escolha de pivô (ex: primeiro elemento vs. aleatório vs. mediana de três) no desempenho do Quicksort, especialmente no "pior caso".
