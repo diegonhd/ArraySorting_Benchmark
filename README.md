@@ -34,13 +34,13 @@ Para cada tamanho, os seguintes cenários foram testados:
 ## 📊 Resultados Provisórios
 Os resultados da Fase 1 foram consolidados em gráficos de **Tempo (s) vs. Tamanho do Array (N)**.
 
-Esses gráficos comparam visualmente o desempenho do **caso médio aleatório** contra o **pior caso invertido** para cada um dos algoritmos implementados, destacando a diferença de complexidade ($O(n^2)$ vs. $O(n \log n)$) na prática.
+Esses gráficos comparam visualmente o desempenho do **caso médio aleatório** contra o **pior caso invertido** para cada um dos algoritmos implementados, destacando a diferença de complexidade (\(O(n^{2})\)), vs. (\(O(\log n)\)) na prática.
 
 ## 🛠️ Tecnologias Utilizadas
 * **Python 3.12.7**
 * **Matplotlib** (para a plotagem dos gráficos)
 * **NumPy** (para geração eficiente de arrays)
-* **Módulo `timeit`** (para medição precisa do tempo de execução)
+* **Módulo `time` ** (para medição precisa do tempo de execução)
 
 ## 🗺️ Próximos Passos (Roadmap)
 
