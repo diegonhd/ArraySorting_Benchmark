@@ -23,7 +23,6 @@ A análise de desempenho é conduzida da seguinte forma:
 
 2.  **Tamanhos de Entrada (N):**
     * 1.000 (1k)
-    * 5.000 (5k) - *Nota: O notebook atual inclui 5k, embora a análise final possa focar nos outros.*
     * 10.000 (10k)
     * 20.000 (20k)
     * 30.000 (30k)
