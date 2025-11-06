@@ -57,7 +57,7 @@ Este algoritmo apresentou o desempenho mais contrastante:
 
 O `Merge Sort` provou ser o algoritmo mais estável e previsível.
 
-* **Todos os Casos $ O(n \log (n)) $:** Seu desempenho é $O(n \log (n))$ em todos os cenários. O gráfico "Tamanho x Tempo (Merge Sort)" confirma isso, mostrando as linhas de caso médio e pior caso quase sobrepostas.
+* **Todos os Casos $O(n \log (n))$ :** Seu desempenho é $O(n \log (n))$ em todos os cenários. O gráfico "Tamanho x Tempo (Merge Sort)" confirma isso, mostrando as linhas de caso médio e pior caso quase sobrepostas.
 * **Artefato de Pior Caso:** Uma observação interessante é que o "pior caso" (linha vermelha) foi consistentemente *mais rápido* que a média. Isso é provavelmente um artefato de otimização de hardware (CPU *Branch Prediction*), onde dados previsíveis (como um array ordenado) são processados de forma mais eficiente do que dados aleatórios e imprevisíveis.
 * **Custo de Espaço:** Conforme observado no `sort_benchmark.ipynb`, essa estabilidade de tempo tem um custo: o `Merge Sort` utiliza **$O(n)$ de espaço extra** na memória para criar cópias dos subarrays durante a mesclagem.
 
